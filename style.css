@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+        color: red;
+    }
+}
+
+body{
+    font-family: petrona, sans-serif;
+    background-image: url(img-audio-video/fondo.jpg);
+    width:100%;    
+        
+  }
+
+ .container{
+    width: 100%;
+     margin: 0 auto;
+            
+    }   
+    
+
+header{
+    color: darkred;
+    text-align: center;
+        
+}
+
+header {
+    display: inline;
+    width: 100%;
+}
+#escudo{
+    width: 30%;
+    display: inline-block;
+    
+}
+
+#hgroup{
+    width: 60%;
+    display: inline-block;
+    
+}
+
+
+
+  nav{
+        background-color: whitesmoke;
+        min-height:50px;
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+        border-radius: 20px;
+        display: inline-block;
+        text-align: center;
+            
+      }
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+       
+     
+      nav li{
+        display: inline-flex;
+                    
+         
+      }
+
+      nav li a{
+        text-decoration: none;
+        padding: 0.5em;
+        color: white;
+        background-color: black;
+        font-variant: small-caps;
+        border-radius: 20px;
+         
+       
+       
+          
+      }
+      nav li a:hover{
+        background-color: darkred;
+          
+      } 
+
+
+ main{
+       
+        color: black;
+        min-height:500px;
+        width:60%;
+        padding: 16px;
+        padding-left: 35px;
+        text-align: justify;
+        display: inline-block;
+      }
+    main h1{
+        color: darkred;
+        text-align: center;
+    
+    }
+
+
+    aside{
+        background-color:grey;
+        padding: 18px;
+        width:39%;
+        float: right;
+        text-align: center;
+        padding-right: 35px;
+        display: inline-block;
+        min-height: 500px;
+        
+
+      }
+
+      
+      aside li{
+        display: inline-flex;
+      }
+      
+      aside li a{
+        text-decoration: none;
+        padding: 0.01em;
+        color: white;
+        background-color: darkolivegreen;
+        font-variant: small-caps;
+      }
+      
+      aside li a:hover{
+        background-color: gray;
+      }
+    aside h2{
+    color: black;
+    padding: 5px; 
+    text-align: center;
+    
+}
+aside h4{
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+aside img{
+    border: solid 5px white;
+    float: center;
+}
+
+audio{
+    max-width: 100%;
+}
+
+footer{
+        background-color: whitesmoke;
+        color: darkred;
+        min-height:60px;
+        text-align: center;
+    
+      }
+      
+      
+p{
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+    color: black
+}
+
+    ul
+    {text-align: left;
+        padding: 10px;
+        line-height: 1.5;
+}     
+    .inicial
+    {
+    font:300% serif;
+    color:darkred;
+   
+    
+}
+.ayuntamiento{
+    text-align: center;
+ 
+}
+.fotos{
+    padding: 40px;
+    text-align: center;
+}
+.boton-inicio{
+   background-color: whitesmoke;
+    color: white;
+        min-height:20px;
+        padding: 0.5em;
+        text-align: center;
+        width: 50%;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+    margin-top: 90px;
+    float: none;
+    
+}
+.salaexp{
+    display: inline-flex;
+}
+h3{
+    color: black;
+}
+aside li{
+    color: black;
+    display: list-item;
+    padding: 1px;
+    list-style: disc;
+}
